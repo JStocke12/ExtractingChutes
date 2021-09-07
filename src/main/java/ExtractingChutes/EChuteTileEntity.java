@@ -13,7 +13,7 @@ public class EChuteTileEntity extends TileEntity implements ITickableTileEntity 
         super(tileEntityTypeIn);
     }
 
-    public EchuteTileEntity() {
+    public EChuteTileEntity() {
         this(ModTileEntityTypes.EXTRACTING_CHUTE.get());
     }
 

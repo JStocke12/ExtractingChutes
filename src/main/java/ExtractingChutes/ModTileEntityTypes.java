@@ -10,5 +10,5 @@ public class ModTileEntityTypes {
     public static final DeferredRegister<TileEntityType<?>> TILE_ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.TILE_ENTITIES, ExtractingChutes.MOD_ID);
 
     public static final RegistryObject<TileEntityType<EChuteTileEntity>> EXTRACTING_CHUTE = TILE_ENTITY_TYPES.register("extracting_chute",
-            () -> TileEntityType.Builder.create(EChuteTileEntity::new, BlockInit.EXTRACTING_CHUTE).build(null));
+            () -> TileEntityType.Builder.create(EChuteTileEntity::new, BlockInit.EXTRACTING_CHUTE.get()).build(null));
 }
